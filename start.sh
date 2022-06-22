@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export SYNAPSE_SERVER_NAME=matrix.home.local
+export SYNAPSE_SERVER_NAME=synapse
 export SYNAPSE_REPORT_STATS=no 
 
 if [ ! -f /data/homeserver.yaml ]
