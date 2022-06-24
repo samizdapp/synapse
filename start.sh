@@ -10,5 +10,7 @@ then
     echo "enable_registration: true" >> /data/homeserver.yaml
 fi
 
+./watch_hosts.sh & jobs
+
 /start.py
 
